@@ -34,37 +34,37 @@
                 <div class="cadre_diapo">
                     <div class="interieur_diapo">
                         <div class=description>
-                            <img src="../img/vandb-couverture.png" alt>
+                            <img src="../img/ecurie-couverture.png" alt>
                         </div>
                         <div class=description>
-                            <img src="../img/vandb-couverture.png" alt>
+                            <img src="../img/ecurie-couverture.png" alt>
                         </div>
                         <div class=description>
-                            <img src="../img/vandb-couverture.png" alt>
+                            <img src="../img/ecurie-couverture.png" alt>
                         </div>
                         <div class=description>
-                            <img src="../img/vandb-couverture.png" alt>
+                            <img src="../img/ecurie-couverture.png" alt>
                         </div>
                     </div>
                     <ul class="navigation_diapo">
                         <li>
                             <a href="#votre_id1">
-                            <img src="../img/vandb-couverture.png" alt>
+                            <img src="../img/ecurie-couverture.png" alt>
                             </a>
                         </li>
                         <li>
                             <a href="#votre_id2">
-                            <img src="../img/vandb-couverture.png" alt>
+                            <img src="../img/ecurie-couverture.png" alt>
                             </a>
                         </li>
                         <li>
                             <a href="#votre_id3">
-                            <img src="../img/vandb-couverture.png" alt>
+                            <img src="../img/ecurie-couverture.png" alt>
                             </a>
                         </li>
                         <li>
                             <a href="#votre_id4">
-                            <img src="../img/vandb-couverture.png" alt>
+                            <img src="../img/ecurie-couverture.png" alt>
                             </a>
                         </li>
                     </ul>

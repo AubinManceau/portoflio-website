@@ -40,7 +40,7 @@
                             <img src="../img/cartes-de-visites-anchor.png" alt>
                         </div>
                         <div class=description>
-                            <img src="../img/vandb-couverture.png" alt>
+                            <img src="../img/anchor-menu.png" alt>
                         </div>
                         <div class=description>
                             <img src="../img/anchor-motif.png" alt>
@@ -59,7 +59,7 @@
                         </li>
                         <li>
                             <a href="#votre_id3">
-                            <img src="../img/vandb-couverture.png" alt>
+                            <img src="../img/anchor-menu.png" alt>
                             </a>
                         </li>
                         <li>
