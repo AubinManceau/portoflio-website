@@ -1,0 +1,1113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: #023047;
+}
+
+header{
+    height: 100vh;
+    background-image: url("../img/background.png");
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 4em;
+}
+
+nav .linkNav{
+    display: flex;
+    align-items: center;
+}
+
+nav .linkNav ul{
+    display: flex;
+    gap: 5em;
+    margin: 0;
+    list-style: none;
+}
+
+nav .linkNav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+nav .nameNav p{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 26px;
+}
+
+.couleur{
+    color: #FAC91D;
+}
+
+.contenuHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 7em;
+}
+
+.titreHeader h1{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.texteHeader{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: .5em;
+    line-height: 1.5em;
+}
+
+.boutonHeader a{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px 25px;
+    background-color: #FAC91D;
+    border-radius: 15px;
+    text-decoration: none;
+    filter: drop-shadow(0 0 25px rgba(250, 201, 29, 0.25));
+}
+
+.boutonHeader {
+    display: flex;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.scrollDown{
+    position: relative;
+    margin-top: 2em;
+    animation: move 2s linear infinite;
+}
+
+@keyframes move {
+    0%   {top: 0px;}
+    25%  {top: 5px;}
+    50%  {top: 10px;}
+    75%  {top: 5px}
+    100% {top: 0px;}
+}
+
+.boutonAbout a{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px 25px;
+    background-color: #FAC91D;
+    border-radius: 15px;
+    text-decoration: none;
+    filter: drop-shadow(0 0 25px rgba(250, 201, 29, 0.25));
+    font-weight: 500;
+}
+
+.aboutMe{
+    display: flex;
+    justify-content: center;
+    gap: .2vw;
+    align-items: center;
+    padding: 5em 0;
+}
+
+.imgAbout{
+    width: 40vw;
+}
+
+.imgAbout img{
+    width: 28vw;
+    box-shadow: -25px -25px 0 #FAC91D;
+}
+
+.contenuAbout{
+    width: 40vw;
+}
+
+.titreSection{
+    display: flex;
+}
+
+.titreSection h2{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 26px;
+    border-bottom: 4px solid #FAC91D;
+    font-weight: 400;
+}
+
+.texteAbout p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 2em 0 3.5em 0;
+    line-height: 1.4em;
+}
+
+.skills{
+    padding: 3em 4em;
+}
+
+.projects{
+    padding: 3em 4em 6em 4em;
+
+}
+
+.contact{
+    padding: 3em 0 3em 4em; 
+}
+
+.contact section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    height: 5em;
+    background-color: #FAC91D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5em;
+}
+
+footer p{
+    margin: 0;
+}
+
+.copyrightFooter p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.anneeFooter p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.nameFooter{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 26px;
+}
+
+.leftContact{
+    width: 45vw;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: .8em;
+}
+
+.nameForm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nameForm input{
+    width: 47%;
+}
+
+.boutonContact{
+    display: flex;
+}
+
+.leftContact p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 2em 0;
+}
+
+.rightContact{
+    width: 35vw;
+    background-color: #FAC91D;
+    border-radius: 1.5em 0 0 1.5em;
+    padding: 2em 0;
+    padding-left: 2em;
+}
+
+.titreFooter{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 1.8em 0 .6em 0;
+}
+
+.rightContact p.titreContact{
+    color: #023047;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+figure.iconFooter{
+    display: flex;
+    margin: 0;
+    gap: 1em;
+}
+
+figure.iconFooter i{
+    width: 16px;
+    height: 16px;
+    color: #FAC91D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+figure.iconFooter a{
+    background-color: #023047;
+    padding: 1.3em;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.telFooter a, .emailFooter a{
+    color: #023047;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+.boutonContact button{
+    display: flex;
+    justify-content: center;
+    border: none;
+    width: 10em;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    padding: 10px 25px;
+    background-color: #FAC91D;
+    border-radius: 15px;
+    text-decoration: none;
+    filter: drop-shadow(0 0 25px rgba(250, 201, 29, 0.25));
+    cursor: pointer;
+    font-weight: 500;
+}
+
+input.inputForm{
+    height: 3em;
+    padding-left: 1em;
+    border-radius: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    border: none;
+}
+
+textarea{
+    padding-left: 1em;
+    padding-top: 0.5em;
+    border-radius: 1.5em;
+    resize: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+.navProjects{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+}
+
+.navProjects ul{
+    display: flex;
+    justify-content: end;
+    gap: 3em;
+    list-style: none;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    padding: 0;
+}
+
+.navProjects ul p.active{
+    color: #FAC91D;
+}
+
+.navProjects ul p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0.2em;
+}
+
+.imgProjects{
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em 2em;
+}
+
+figure.caseProjects img{
+    width: 18vw;
+    border-radius: 10px;
+}
+
+figure.caseProjects{
+    margin: 0;
+}
+
+.allprojects{
+    display: flex;
+    gap: 5em;
+    margin-top: 3em;
+}
+
+.d-n{
+    display: none;
+}
+
+@keyframes growProgressBar {
+    0%, 33% { --pgPercentage: 0; }
+    100% { --pgPercentage: var(--value); }
+  }
+  
+  @property --pgPercentage {
+    syntax: '<number>';
+    inherits: false;
+    initial-value: 0;
+  }
+  
+  div[role="progressbar"] {
+    --size: 5rem;
+    --fg: #FAC91D;
+    --bg: #fff;
+    --pgPercentage: var(--value);
+    animation: growProgressBar 3s 1 forwards;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: 
+      radial-gradient(closest-side, #023047 80%, transparent 0 99.9%, white 0),
+      conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0)
+      ;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: calc(var(--size) / 5);
+    color: var(--fg);
+  }
+  
+  div[role="progressbar"]::before {
+    counter-reset: percentage var(--value);
+    content: counter(percentage) '%';
+  }
+
+  .skills .containerSkills{
+    margin-top: 2em;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-right: 1px solid #fff;
+  }
+
+  .contentProgressBar{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    margin-top: 2em;
+    width: 50%;
+  }
+
+  .contentProgressBar p{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+  .containerSoft{
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .containerSoft li{
+    list-style-type: square;
+    color: #FAC91D;
+    font-size: 1.5em;
+    margin: 2em 0;
+  }
+
+  .containerSoft p{
+    list-style-type: square;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    margin-left: 1em;
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+  .contentSkills{
+    display: flex;
+    align-items: center;
+  }
+
+
+
+  .NavBurger i{
+    color: #fff;
+  }
+
+  .erreur{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+
+
+  @media screen and (max-width: 1200px) {
+    .titreHeader h1{
+        font-size: 30px;
+    }
+    .texteHeader p{
+        font-size: 14px;
+    }
+    .texteAbout p{
+        font-size: 13px;
+    }
+  }
+
+  @media screen and (max-width: 1070px) {
+    .texteAbout p{
+        font-size: 12px;
+    }
+    .navProjects{
+        width: 15vw;
+    }
+    .imgProjects{
+        width: 65vw;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .titreHeader h1{
+        font-size: 27px;
+    }
+    .texteHeader p{
+        font-size: 13px;
+    }
+  }
+
+  @media screen and (max-width: 950px) {
+    .contenuHeader{
+        margin-top: 4em;
+    }
+    nav .nameNav p{
+        font-size: 22px;
+    }
+    nav .linkNav ul{
+        gap: 4em;
+    }
+    .nameFooter p{
+        font-size: 22px;
+    }
+    .texteAbout span.p3{
+        display: none;
+    }  
+  }
+
+@media screen and (max-width: 900px) {
+    .emailFooter a, .telFooter a{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    nav .linkNav ul{
+        gap: 3em;
+    }
+    .rightContact p.titreContact{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 835px) {
+    .contenuHeader{
+        width: 70%;
+        margin-top: 5em;
+    }
+
+    .contentProgressBar p{
+        font-size: 18px;
+    }
+
+    .containerSoft p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav .nameNav p{
+        font-size: 20px;
+    }
+    nav .linkNav ul{
+        gap: 2.5em;
+    }
+    .leftContact p{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .emailFooter a, .telFooter a{
+        font-size: 13px;
+    }
+
+    p.titreFooter{
+        font-size: 15px;
+    }
+
+    .rightContact p.titreContact{
+        font-size: 23px;
+    }
+
+    nav .linkNav ul{
+        gap: 2em;
+    }
+
+    nav .nameNav p{
+        font-size: 18px;
+    }
+
+    .nameFooter p{
+        font-size: 18px;
+    }
+
+    .copyrightFooter p{
+        font-size: 13px;
+    }
+
+    .anneeFooter p{
+        font-size: 13px;
+    }
+
+    .linkNav a {
+        font-size: 15px;
+    }
+
+    .texteAbout span.p2{
+        display: none;
+    }  
+
+    .texteAbout p{
+        margin-bottom: 0;
+    }
+
+    .contact section{
+        margin-top: 1em;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    div[role="progressbar"] {
+        --size: 4rem;
+    }
+
+    nav .linkNav ul{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    div[role="progressbar"] {
+        --size: 4rem;
+    }
+
+    nav .linkNav ul{
+        padding: 0;
+    }
+
+    figure.caseProjects img{
+        width: 11em;
+    }
+
+    #WebDesignProjects, #DesignProjects, #WebDevProjects, #AllProjects{
+        justify-content: left;
+        gap: 1em 2em;
+    }
+
+    nav .linkNav{
+        display: none;
+    }
+
+    nav{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    figure.caseProjects img{
+        width: 9em;
+    }
+
+    .navProjects ul {
+        margin: 0;
+    }
+
+    .contentProgressBar p{
+        font-size: 14px;
+    }
+
+    .containerSoft p{
+        font-size: 14px;
+    }
+
+    .contentProgressBar{
+        gap: .5em;
+      }
+
+      .emailFooter a, .telFooter a{
+        font-size: 11px;
+    }
+
+    .rightContact p.titreContact{
+        font-size: 18px;
+    }
+
+    p.titreFooter{
+        font-size: 13px;
+    }
+    
+    figure.iconFooter a{
+        padding: 1em;
+    }
+
+    figure.iconFooter{
+        gap: .8em;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    input.inputForm{
+        height: 2em;
+    }
+
+    div[role="progressbar"] {
+        --size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .rightContact{
+        padding-left: 1em;
+    }
+
+    .texteHeader p{
+        font-size: 12px;
+    }
+
+    figure.caseProjects img{
+        width: 8em;
+    }
+
+    .navProjects li p{
+        font-size: 16px;
+    }
+    
+    .skills .containerSkills{
+        margin-top: 0;
+    }
+
+    .imgProjects{
+        width: 55vw;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .emailFooter a, .telFooter a{
+        font-size: 10px;
+    }
+    
+    figure.iconFooter a{
+        padding: .9em;
+    }
+
+    .navProjects li p{
+        font-size: 14px;
+    }
+
+    .contentProgressBar p{
+        font-size: 12px;
+    }
+
+    div[role="progressbar"] {
+        --size: 3rem;
+    }
+
+    figure.caseProjects img{
+        width: 7.5em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .aboutMe{
+        flex-direction: column-reverse;
+        padding-bottom: 2em;
+    }
+
+    .contenuAbout{
+        width: 60%;
+        margin-bottom: 5em;
+    }
+
+    .imgAbout img{
+        width: 45vw;
+    }
+
+    .contentSkills{
+        flex-direction: column;
+    }
+
+    .skills .containerSkills{
+        border: none;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 2em;
+      }
+
+      .skills{
+        padding-bottom: 0;
+      }
+
+      .allprojects{
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+    .containerSoft{
+        width: 100%;
+    }
+
+    .navProjects{
+        width: 100%;
+    }
+
+    .navProjects ul{
+        display: flex;
+        justify-content: space-between;
+        width: 90vw;
+        flex-direction: row-reverse;
+        gap: 1em;
+        writing-mode: horizontal-tb;
+        transform: rotate(0);
+    }
+
+    .navProjects ul p{
+        font-size: 12px;
+    }
+
+    .projects{
+        padding-bottom: 2em;
+    }
+
+    figure.caseProjects img{
+        width: 7.5em;
+    }
+
+    .imgProjects{
+        width: 65vw;
+    }
+
+    .projectsContenair{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact{
+        padding: 3em 4em; 
+    }
+
+    .contact section{
+        flex-direction: column-reverse;
+        gap: 2em;
+    }
+
+    .leftContact{
+        width: 100%;
+    }
+
+    input.inputForm{
+        height: 3em;
+    }
+
+    .rightContact{
+        width: 100%;
+        border-radius: 1.5em;
+    }
+
+    .rightContact p.titreContact{
+        font-size: 30px;
+    }
+
+    .titreFooter{
+        font-size: 18px;
+    }
+
+    .telFooter a, .emailFooter a{
+        font-size: 18px;
+    }
+
+    figure.iconFooter a{
+        padding: 1em;
+    }
+
+    footer{
+        padding: 0 30px;
+    }
+
+    .nameFooter p{
+        font-size: 14px;
+    }
+
+    .contenuHeader{
+        margin-top: 4em;
+    }
+    
+}
+
+
+@media screen and (max-width: 450px) {
+    .telFooter a, .emailFooter a{
+        font-size: 15px;
+    }
+
+    .copyrightFooter p, .anneeFooter p{
+        font-size: 12px;
+    }
+
+    .rightContact p.titreContact{
+        font-size: 26px;
+    }
+
+    .contentProgressBar p{
+        font-size: 11px;
+    }
+
+    div[role="progressbar"] {
+        --size: 2.5rem;
+    }
+
+    .navProjects ul p{
+        font-size: 10px;
+    }
+
+    figure.caseProjects img{
+        width: 7em;
+    }
+
+    .scrollDown{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    input.inputForm{
+        height: 2.3em;
+    }
+
+    .copyrightFooter p, .anneeFooter p{
+        font-size: 10px;
+    }
+
+    .rightContact p.titreContact{
+        font-size: 24px;
+    }
+
+    .telFooter a, .emailFooter a{
+        font-size: 11px;
+    }
+
+    .nameFooter p{
+        font-size: 10px;
+    }
+
+    figure.caseProjects img{
+        width: 6.5em;
+    }
+    
+    .titreHeader h1{
+        font-size: 24px;
+    }
+
+    .contentProgressBar p{
+        font-size: 9px;
+    }
+
+    div[role="progressbar"] {
+        --size: 2rem;
+    }
+
+    .containerSoft p{
+        font-size: 12px;
+    }
+
+    .navProjects ul{
+        justify-content: center;
+        gap: .5em;
+    }
+
+    .projects{
+        padding: 3em 3em;
+    }
+
+    .imgProjects{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    nav{
+        padding: 16px 30px;
+    }
+
+    .texteHeader p{
+        line-height: 1.4em;
+        font-size: 11px;
+    }
+
+    .contentProgressBar p{
+        font-size: 8px;
+    }
+
+    div[role="progressbar"] {
+        --size: 1.8rem;
+    }
+
+    .containerSoft p{
+        font-size: 10px;
+    }
+
+    .projects{
+        padding: 3em 2em;
+    }
+
+    figure.caseProjects img{
+        width: 6.3em;
+    }
+
+    .navProjects ul p{
+        font-size: 9.5px;
+    }
+
+    .rightContact p.titreContact{
+        font-size: 20px;
+    }
+
+    .telFooter a, .emailFooter a{
+        font-size: 11px;
+    }
+
+    figure.iconFooter a{
+        padding: 1em;
+    }
+
+    .titreFooter{
+        font-size: 14px;
+    }
+
+    .contact{
+        padding: 3em 2em; 
+    }
+
+    .imgAbout img{
+        box-shadow: -10px -10px 0 #FAC91D;
+    }
+
+    .nameFooter p, .copyrightFooter p, .anneeFooter p{
+        font-size: 9px;
+    }
+
+    footer{
+        padding: 0 15px;
+        height: 3em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .titreHeader h1{
+        font-size: 22px;
+    }
+
+    .contentProgressBar p{
+        font-size: 7px;
+    }
+
+    div[role="progressbar"] {
+        --size: 1.5rem;
+    }
+
+    figure.caseProjects img{
+        width: 11em;
+    }
+
+    .navProjects ul p{
+        font-size: 7.3px;
+    }
+
+    .emailFooter a{
+        font-size: 10px;
+    }
+
+    .nameFooter p, .copyrightFooter p, .anneeFooter p{
+        font-size: 8px;
+    }
+
+}
+

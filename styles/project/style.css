@@ -1,0 +1,304 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #023047;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 4em;
+}
+
+nav .linkNav{
+    display: flex;
+    align-items: center;
+}
+
+nav .linkNav ul{
+    display: flex;
+    gap: 5em;
+    margin: 0;
+    list-style: none;
+}
+
+nav .linkNav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+nav .nameNav p{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 26px;
+}
+
+
+/* Main */
+
+img{
+
+    max-width: 100%;
+    
+    }
+    
+    /*pour le saut de page, on cree une class que l'on met en display:none*/
+    .target{
+    
+    display: none
+    
+    }
+    
+    
+    /* englobe le slider */
+    
+    .cadre_diapo{
+    
+    max-width: 600px;
+    margin: 2rem auto;
+    overflow: hidden;
+        
+    }
+    
+    
+    .interieur_diapo{
+        
+    display: flex;
+    width: 400%;
+    transition: transform .6s ease-in-out;
+        
+    }
+        
+        
+    #votre_id1:target ~ .cadre_diapo .interieur_diapo{
+    
+    transform:translatex(0)
+    
+    }/*image 1*/
+    
+    #votre_id2:target ~ .cadre_diapo .interieur_diapo{
+    
+    transform:translatex(-25%)
+    
+    }/*image 2*/
+    
+    #votre_id3:target ~ .cadre_diapo .interieur_diapo{
+    
+    transform:translatex(-50%)
+    
+    }/*image 3*/
+    
+    #votre_id4:target ~ .cadre_diapo .interieur_diapo{
+    
+    transform:translatex(-75%)
+    
+    }/*image 4*/
+    
+    
+    
+    
+    
+    /*navigation avec images miniatures*/
+    .navigation_diapo{
+        
+    display: flex; /*permet d'aligner les photos les unes à la suite des autres, on peut aussi utiliser le positionnement absolu*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+        
+    }
+    
+    .navigation_diapo li {
+        
+        padding: .25rem;
+        
+    }
+    
+    .navigation_diapo img{
+    
+        border: 3px solid white;
+        box-shadow:0 0 5px hsla(0,0%,0%,.4);
+    
+        
+    }
+        
+        
+    @media (min-width:31.25rem){
+            
+        .description span{
+                
+            font-size: initial
+            
+        }
+        
+    }
+
+
+
+.contenu-projets{
+    width: 40%;
+}
+
+.titre{
+    display: flex;
+}
+
+.contenu-projets h1{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 36px;
+    border-bottom: 4px solid #FAC91D;
+    font-weight: 400;
+    margin-bottom: .5em;
+}
+
+.contenu-projets P{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.4em;
+}
+
+.contenu-projets ul{
+    list-style-type: square;
+    color: #FAC91D;
+}
+
+.boutonSite a{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px 25px;
+    background-color: #FAC91D;
+    border-radius: 15px;
+    text-decoration: none;
+    filter: drop-shadow(0 0 25px rgba(250, 201, 29, 0.25));
+}
+
+.boutonSite{
+    margin-top: 3em;
+}
+
+.noSite{
+    display: none;
+}
+
+
+@media screen and (max-width: 1100px) {
+    main{
+        flex-direction: column;
+    }
+
+    html, body{
+        overflow: visible;
+    }
+
+    .contenu-projets{
+        margin: auto;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .cadre_diapo{
+        max-width: 500px;
+    }
+
+    .contenu-projets{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cadre_diapo{
+        max-width: 400px;
+    }
+
+    .contenu-projets{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cadre_diapo{
+        max-width: 300px;
+    }
+
+    .contenu-projets{
+        width: 300px;
+    }
+
+    nav .linkNav a{
+        font-size: 14px;
+    }
+    
+    nav .nameNav p{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cadre_diapo{
+        max-width: 250px;
+    }
+
+    .contenu-projets{
+        width: 250px;
+    }
+
+    nav .linkNav a{
+        font-size: 12px;
+    }
+    
+    nav .nameNav p{
+        font-size: 18px;
+    }
+
+    nav{
+        padding: 16px 30px;
+    }
+
+    .contenu-projets h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .cadre_diapo{
+        max-width: 200px;
+    }
+
+    .contenu-projets{
+        width: 200px;
+    }
+
+    nav .linkNav a{
+        font-size: 12px;
+    }
+    
+    nav .nameNav p{
+        font-size: 14px;
+    }
+
+    nav{
+        padding: 16px 30px;
+    }
+
+    .contenu-projets h1{
+        font-size: 30px;
+    }
+}
