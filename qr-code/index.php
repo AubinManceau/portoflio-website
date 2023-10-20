@@ -76,11 +76,11 @@
             </div>
             <ul>
                 <li><p>Site Internet</p></li>
-                <li><p>HTML / CSS / JS / PHP</p></li>
-                <li><p>48h</p></li>
+                <li><p>HTML / CSS / JS</p></li>
+                <li><p>2h</p></li>
             </ul>
             <p>
-            Lors de mon deuxième projet partiel, la consigne était d'imaginer un produit high-tech innovant et de réaliser le marketing, la charte graphique, le site web et la communication du produit. J'ai donc imaginé un jardin d'intérieur connecté qui permet de faire pousser, dans les meilleures conditions, tous types de plantes dans sa maison.
+            Pour développer mes compétences en JavaScript, j'ai décidé de me lancer dans la création de mini-projets. Ce générateur de QR Code utilise une API pour générer une image à partir d'un mot ou d'un lien.
             </p>
             <div class="boutonSite noSite">
                 <a target="_blank" href="#">Visiter le site</a>

@@ -75,12 +75,12 @@
                 <h1>VandB Fest'</h1>
             </div>
             <ul>
-                <li><p>Site Internet</p></li>
-                <li><p>HTML / CSS / JS / PHP</p></li>
-                <li><p>48h</p></li>
+                <li><p>Affiche</p></li>
+                <li><p>Photoshop / Illustrator</p></li>
+                <li><p>10h30</p></li>
             </ul>
             <p>
-            Lors de mon deuxième projet partiel, la consigne était d'imaginer un produit high-tech innovant et de réaliser le marketing, la charte graphique, le site web et la communication du produit. J'ai donc imaginé un jardin d'intérieur connecté qui permet de faire pousser, dans les meilleures conditions, tous types de plantes dans sa maison.
+            Le VandB Fest' est un festival créé en Mayenne, qui regroupe plus de 100 000 personnes et les meilleurs artistes de France et du monde. J'ai donc créé le design d'une affiche ainsi qu'une bâche pour promouvoir cet événement. Pour réaliser cette mission, je me suis inspiré de la charte graphique et des visuels déjà créés par le festival.
             </p>
             <div class="boutonSite noSite">
                 <a target="_blank" href="">Visiter le site</a>

@@ -76,11 +76,11 @@
             </div>
             <ul>
                 <li><p>Site Internet</p></li>
-                <li><p>HTML / CSS / JS / PHP</p></li>
-                <li><p>48h</p></li>
+                <li><p>WordPress / Elementor / WooCommerce</p></li>
+                <li><p>50h</p></li>
             </ul>
             <p>
-            Lors de mon deuxième projet partiel, la consigne était d'imaginer un produit high-tech innovant et de réaliser le marketing, la charte graphique, le site web et la communication du produit. J'ai donc imaginé un jardin d'intérieur connecté qui permet de faire pousser, dans les meilleures conditions, tous types de plantes dans sa maison.
+            Lors de mon stage au sein de l'agence de communication poitevine Katla, j'ai eu l'occasion de m'occuper de la refonte du site web de Natur'an, un salon de massage. Mon travail consistait à rendre le site plus moderne en améliorant l'expérience utilisateur et l'ergonomie. J'ai également pu découvrir WooCommerce, une extension WordPress qui simplifie la création de sites e-commerce.
             </p>
             <div class="boutonSite">
                 <a target="_blank" href="https://www.institut-naturan.fr/">Visiter le site</a>

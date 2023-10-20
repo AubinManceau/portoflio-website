@@ -75,12 +75,12 @@
                 <h1>écurie Rp Jump</h1>
             </div>
             <ul>
-                <li><p>Site Internet</p></li>
-                <li><p>HTML / CSS / JS / PHP</p></li>
+                <li><p>Site Internet / Maquette</p></li>
+                <li><p>WordPress / Figma</p></li>
                 <li><p>48h</p></li>
             </ul>
             <p>
-            Lors de mon deuxième projet partiel, la consigne était d'imaginer un produit high-tech innovant et de réaliser le marketing, la charte graphique, le site web et la communication du produit. J'ai donc imaginé un jardin d'intérieur connecté qui permet de faire pousser, dans les meilleures conditions, tous types de plantes dans sa maison.
+            Lors de mon stage au sein de l'agence de communication poitevine Katla, j'ai eu l'opportunité de m'occuper de la conception du site web des Ecuries RP Jump. Après avoir créé une maquette, j'ai mis en place le site sur WordPress.
             </p>
             <div class="boutonSite">
                 <a target="_blank" href="https://www.ecuries-rpjump.fr/">Visiter le site</a>

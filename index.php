@@ -159,7 +159,7 @@ if(isset($_POST['send'])){
                             <p>Autodidacte</p>
                         </li>
                         <li>
-                            <p>organisation</p>
+                            <p>organisé</p>
                         </li>
                         <li>
                             <p>Esprit d'équipe</p>
@@ -257,7 +257,13 @@ if(isset($_POST['send'])){
                             <a href="./anchor/"><img src="./img/anchor-couverture.png" alt=""></a>
                         </figure>
                         <figure class="caseProjects">
+                            <a href="./planteo/"><img src="./img/planteo-couverture.png" alt=""></a>
+                        </figure>
+                        <figure class="caseProjects">
                             <a href="./vandb-fest/"><img src="./img/vandb-couverture.png" alt=""></a>
+                        </figure>
+                        <figure class="caseProjects">
+                            <a href="./exodia/"><img src="./img/exodia-couverture.png" alt=""></a>
                         </figure>
                         <figure class="caseProjects">
                             <a href="./zoo/"><img src="./img/zoo-couverture.png" alt=""></a>
@@ -265,10 +271,16 @@ if(isset($_POST['send'])){
                     </div>
                     <div class="imgProjects d-n" id="WebDesignProjects">
                         <figure class="caseProjects">
-                            <a href="./ecurie-rp-jump/"><img src="./img/planteo-couverture.png" alt=""></a>
+                            <a href="./ecurie-rp-jump/"><img src="./img/ecurie-couverture.png" alt=""></a>
+                        </figure>
+                        <figure class="caseProjects">
+                            <a href="./planteo/"><img src="./img/planteo-couverture.png" alt=""></a>
                         </figure>
                         <figure class="caseProjects">
                             <a href="./macaron/"><img src="./img/macaron-couverture.png" alt=""></a>
+                        </figure>
+                        <figure class="caseProjects">
+                            <a href="./exodia/"><img src="./img/exodia-couverture.png" alt=""></a>
                         </figure>
                     </div>
                 </div>

@@ -75,12 +75,12 @@
                 <h1>Zoo d'angers</h1>
             </div>
             <ul>
-                <li><p>Site Internet</p></li>
-                <li><p>HTML / CSS / JS / PHP</p></li>
-                <li><p>48h</p></li>
+                <li><p>Logo</p></li>
+                <li><p>Illustrator</p></li>
+                <li><p>2h</p></li>
             </ul>
             <p>
-            Lors de mon deuxième projet partiel, la consigne était d'imaginer un produit high-tech innovant et de réaliser le marketing, la charte graphique, le site web et la communication du produit. J'ai donc imaginé un jardin d'intérieur connecté qui permet de faire pousser, dans les meilleures conditions, tous types de plantes dans sa maison.
+            Ce perroquet est le premier logo que j'ai réalisé. Il a été créé uniquement avec des cercles sur Illustrator. Souvent utilisé comme emblème des zoos, ce perroquet est devenu la mascotte du nouveau zoo d'Angers.
             </p>
             <div class="boutonSite noSite">
                 <a target="_blank" href="">Visiter le site</a>

@@ -80,7 +80,7 @@
                 <li><p>2h</p></li>
             </ul>
             <p>
-            [...]
+            Pour développer mes compétences en JavaScript, j'ai décidé de me lancer dans la création de mini-projets. Cette calculatrice est un projet très simple mais qui m'a formé dans la récupération de données (au clic) et dans l'utilisation des opérateurs mathématiques.
             </p>
             <div class="boutonSite noSite">
                 <a target="_blank" href="">Visiter le site</a>

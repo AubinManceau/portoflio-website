@@ -75,12 +75,12 @@
                 <h1>Macaron</h1>
             </div>
             <ul>
-                <li><p>Site Internet</p></li>
-                <li><p>HTML / CSS / JS / PHP</p></li>
-                <li><p>48h</p></li>
+                <li><p>Maquette</p></li>
+                <li><p>Figma</p></li>
+                <li><p>5h</p></li>
             </ul>
             <p>
-            Lors de mon deuxième projet partiel, la consigne était d'imaginer un produit high-tech innovant et de réaliser le marketing, la charte graphique, le site web et la communication du produit. J'ai donc imaginé un jardin d'intérieur connecté qui permet de faire pousser, dans les meilleures conditions, tous types de plantes dans sa maison.
+            Par groupe, nous avons réalisé la maquette d'une application mobile. Nous devions optimiser l'expérience utilisateur et faciliter l'utilisation de notre application. Nous avons décidé de créer une application de click and collect pour une pâtisserie parisienne spécialisée dans les macarons.
             </p>
             <div class="boutonSite noSite">
                 <a target="_blank" href="#">Visiter le site</a>

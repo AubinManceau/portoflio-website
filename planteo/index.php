@@ -75,9 +75,9 @@
                 <h1>Plantéo</h1>
             </div>
             <ul>
-                <li><p>Site Internet</p></li>
-                <li><p>HTML / CSS / JS / PHP</p></li>
-                <li><p>48h</p></li>
+                <li><p>Site Internet / Maquette / Création numérique</p></li>
+                <li><p>HTML / CSS / JS / PHP / Figma / Photoshop / Illustrator</p></li>
+                <li><p>35h</p></li>
             </ul>
             <p>
             Lors de mon deuxième projet partiel, la consigne était d'imaginer un produit high-tech innovant et de réaliser le marketing, la charte graphique, le site web et la communication du produit. J'ai donc imaginé un jardin d'intérieur connecté qui permet de faire pousser, dans les meilleures conditions, tous types de plantes dans sa maison.

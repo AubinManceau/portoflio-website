@@ -75,16 +75,16 @@
                 <h1>Trac n'Art</h1>
             </div>
             <ul>
-                <li><p>Site Internet</p></li>
-                <li><p>HTML / CSS / JS / PHP</p></li>
-                <li><p>48h</p></li>
+                <li><p>Site Internet / Création numérique</p></li>
+                <li><p>WordPress / Photoshop / Illustrator</p></li>
+                <li><p>35h</p></li>
             </ul>
             <p>
-            Lors de mon deuxième projet partiel, la consigne était d'imaginer un produit high-tech innovant et de réaliser le marketing, la charte graphique, le site web et la communication du produit. J'ai donc imaginé un jardin d'intérieur connecté qui permet de faire pousser, dans les meilleures conditions, tous types de plantes dans sa maison.
+            Lors de la Creative Week, un événement national organisé par MyDigitalSchool, nous devions, par groupe de 4, aider une association caritative dans sa transition numérique. L'association Trac n'art, un théâtre caritatif, nous a donné l'opportunité de refondre son logo, sa charte graphique et son site web.
             </p>
-        </div>
-        <div class="boutonSite">
+            <div class="boutonSite">
             <a target="_blank" href="http://tracnart.fr/">Visiter le site</a>
+            </div>
         </div>
     </main>
     <footer>
