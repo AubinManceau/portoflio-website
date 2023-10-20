@@ -51,6 +51,7 @@ if(isset($_POST['send'])){
     <link rel="stylesheet" href="./styles/style.css">
     <script src="./main/main.js" defer></script>
     <script src="https://kit.fontawesome.com/a560869912.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
 </head>
 <body>
     <header>

@@ -6,6 +6,7 @@
     <title>Portfolio | Ecuries RP Jump</title>
     <link rel="stylesheet" href="../styles/project/style.css">
     <script src="https://kit.fontawesome.com/a560869912.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png">
 </head>
 <body>
     <header>
