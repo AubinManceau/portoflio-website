@@ -40,7 +40,7 @@
                             <img src="../img/cartes-de-visites-anchor.png" alt>
                         </div>
                         <div class=description>
-                            <img src="../img/anchor-menu.png" alt>
+                            <img src="../img/bateau-anchor.png" alt>
                         </div>
                         <div class=description>
                             <img src="../img/anchor-motif.png" alt>
@@ -59,7 +59,7 @@
                         </li>
                         <li>
                             <a href="#votre_id3">
-                            <img src="../img/anchor-menu.png" alt>
+                            <img src="../img/bateau-anchor.png" alt>
                             </a>
                         </li>
                         <li>
@@ -72,15 +72,15 @@
         </div>
         <div class="contenu-projets">
             <div class="titre">
-                <h1>Anchor</h1>
+                <h1>Ankor</h1>
             </div>
             <ul>
                 <li><p>Création numérique</p></li>
                 <li><p>Photoshop / Illustrator</p></li>
-                <li><p>18h</p></li>
+                <li><p>25h</p></li>
             </ul>
             <p>
-            Anchor est un mélange entre un foodtruck et un bateau : un “foodboat”. De la création du logo, à la recherche des couleurs et de typographies, en passant par la création de visuels, avec mon binôme, nous avons élaborer une charte graphique complète pour cette entreprise fictive.
+            Ankor est un mélange entre un foodtruck et un bateau : un “foodboat”. De la création du logo, à la recherche des couleurs et de typographies, en passant par la création de visuels, avec mon binôme, nous avons élaborer une charte graphique complète pour cette entreprise fictive.
             </p>
             <div class="boutonSite noSite">
                 <a target="_blank" href="">Visiter le site</a>
