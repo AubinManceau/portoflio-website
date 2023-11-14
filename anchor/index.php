@@ -80,7 +80,7 @@
                 <li><p>25h</p></li>
             </ul>
             <p>
-            Ankor est un mélange entre un foodtruck et un bateau : un “foodboat”. De la création du logo, à la recherche des couleurs et de typographies, en passant par la création de visuels, avec mon binôme, nous avons élaborer une charte graphique complète pour cette entreprise fictive.
+            Ankor est un mélange entre un foodtruck et un bateau : un “foodboat”. De la création du logo, à la recherche des couleurs et de typographies, en passant par la création de visuels, avec mon binôme, nous avons élaboré une charte graphique complète pour cette entreprise fictive.
             </p>
             <div class="boutonSite noSite">
                 <a target="_blank" href="">Visiter le site</a>
